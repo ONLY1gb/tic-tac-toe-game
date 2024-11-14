@@ -70,3 +70,35 @@
 .title img{
   padding: 20px;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .title {
+      font-size: 1.5rem;
+  }
+
+  .boxes {
+      font-size: 2.5rem;
+  }
+
+  .reset {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+  }
+}
+
+/* Media query for very small screens (phones) */
+@media (max-width: 480px) {
+  .title {
+      font-size: 1.2rem;
+  }
+
+  .boxes {
+      font-size: 2rem;
+  }
+
+  .reset {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+  }
+}
